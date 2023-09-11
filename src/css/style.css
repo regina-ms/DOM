@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.board {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    width: 500px;
+    height: 500px;
+    justify-content: space-between;
+}
+
+.cell {
+    background-color: lightblue;
+    border-radius: 20px;
+    width:24%;
+    height: 24%;
+}
